@@ -1,5 +1,5 @@
-insert into student
-values(10001,'Ranga', 'E1234567');
 
-insert into student
-values(10002,'Ravi', 'A1234568');
+INSERT INTO users (user_id, username, password, enabled) VALUES
+	('1', 'peter@example.com', '$2a$10$D4OLKI6yy68crm.3imC9X.P2xqKHs5TloWUcr6z5XdOqnTrAK84ri', true),
+	('2', 'john@example.com', '$2a$10$D4OLKI6yy68crm.3imC9X.P2xqKHs5TloWUcr6z5XdOqnTrAK84ri', true),
+	('3', 'katie@example.com', '$2a$10$D4OLKI6yy68crm.3imC9X.P2xqKHs5TloWUcr6z5XdOqnTrAK84ri', true);
